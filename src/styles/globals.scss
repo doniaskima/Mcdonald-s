@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  max-width: 100%;
+}
+
+@import "base/normalize";
+@import "base/reset";
+@import "base/typography";
+
+@import "components/scrollbar";
+@import "components/buttons";
+@import "components/inputs";
