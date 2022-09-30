@@ -1,0 +1,113 @@
+nav {
+    padding: 2rem 10vw;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+    background: white;
+    transition: .3s;
+    z-index: 555555;
+}
+
+nav .mobile-list {
+    display: none;
+}
+
+nav .bars {
+    display: none;
+}
+
+nav .website {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    width: 150px;
+}
+
+nav .img {
+    width: 40;
+}
+
+nav h1 {
+    color: gray;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.desktop-list {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    position: relative;
+}
+
+.desktop-list a {
+    color: black;
+    font-weight: 700;
+    font-size: 1em;
+    position: relative;
+    list-style: none;
+    text-decoration: none;
+}
+
+.desktop-list a::after {
+    content: "";
+    height: 4px;
+    width: 100%;
+    background: #FFC72C;
+    position: absolute;
+    right: 0px;
+    bottom: -10px;
+    border-radius: 50px;
+    transition: .5s;
+    transform: scale(0, 1);
+}
+
+.desktop-list a:hover::after {
+    transform: scale(1, 1);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    position: relative;
+}
+
+.container .icon {
+    width: 2rem;
+    height: 2rem;
+    color: black;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.container .icon:hover {
+    color: #FFC72C;
+}
+
+.link {
+    height: 30px;
+}
+
+.container a {
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+}
+
+.faUser {
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+}
+
+h3:hover {
+    color: #FFC72C;
+    transform: scale(1, 1);
+}
+
+.faUser :hover {
+    color: #FFC72C;
+    transform: scale(1, 1);
+}

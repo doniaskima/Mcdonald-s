@@ -1,7 +1,8 @@
 import { useEffect } from "react";
-import Magdo from "../assets/logo.jpg";
+import Magdo from "../../assets/logo.jpg";
 import { FaUser } from "react-icons/fa";
 import { FaShoppingBag } from "react-icons/fa";
+import "./Header.css";
 
 export default function () {
     return (
@@ -10,7 +11,7 @@ export default function () {
                 <nav>
                     <div className="website">
                         <img src={Magdo} alt="Magdo" />
-                        <h1>Welcome to Magdo</h1>
+                        <h1>Welcome to McDonald's</h1>
                     </div>
                     <ul className="desktop-list">
                         <a href="#home">Home</a>
@@ -38,7 +39,7 @@ export default function () {
                     <div className="wrap">
                         <div className="container">
                             <a href="/auth">
-                                <FaUser />
+                                <FaUser className="faUser"/>
                                 <h3>Sign in</h3>
                             </a>
                             <div>
