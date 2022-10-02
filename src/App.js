@@ -1,5 +1,5 @@
 import './App.css';
-import HeroPage from './components/HeroPage';
+import HeroPage from "./components/HeroPage/HeroPage"
 
 function App() {
   return (

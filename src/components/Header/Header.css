@@ -2,7 +2,7 @@ nav {
     padding: 2rem 10vw;
     display: flex;
     justify-content: space-between;
-    position: sticky;
+    position: relative;
     top: 0px;
     background: white;
     transition: .3s;

@@ -6,7 +6,7 @@ const Order = ({image, text, alt, title}) => {
     <div className="container">
         <div className="eachOne">
             <div className="img-left">
-                <img src={image} alt={alt} />
+                <img src={image} alt={alt} className="food-img" />
             </div>
             <div className="text-right">
                 <h1 className="title">{title}</h1>

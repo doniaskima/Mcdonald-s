@@ -3,6 +3,7 @@
     position: relative;
     justify-content: center;
     margin: auto;
+    margin-bottom: 5rem;
 }
 
 .eachOne {
@@ -10,11 +11,16 @@
     align-items: center;
     gap: 1rem;
     grid-template-columns: 1fr 1fr;
-    row-gap: 4rem;
-    column-gap: 8rem;
+    row-gap: 2rem;
+    column-gap: 3rem;
 }
 
 .img-left {
+    width: 100vh;
+    object-fit: contain;
+}
+
+.food-img {
     width: 100vh;
     object-fit: contain;
 }
@@ -25,4 +31,10 @@
     margin-bottom: 1.4rem;
     line-height: 1.6;
     color: black;
+}
+
+.text-right a {
+    padding: 0.8rem 1rem;
+    background: #FFC72C;
+    color: rgb(55, 52, 52);
 }
