@@ -1,0 +1,28 @@
+.container {
+    width: 80vw;
+    position: relative;
+    justify-content: center;
+    margin: auto;
+}
+
+.eachOne {
+    display: grid;
+    align-items: center;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 4rem;
+    column-gap: 8rem;
+}
+
+.img-left {
+    width: 100vh;
+    object-fit: contain;
+}
+
+.text-right {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 1.4rem;
+    line-height: 1.6;
+    color: black;
+}
