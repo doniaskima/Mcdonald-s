@@ -3,7 +3,7 @@ import HeroPage from "./components/HeroPage/HeroPage"
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <HeroPage/>
     </div>
   );
