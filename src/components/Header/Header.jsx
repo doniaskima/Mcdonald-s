@@ -25,19 +25,19 @@ export default function () {
                 </div>
                 <ul className="desktop-list">
                     <a href="#home">Home</a>
-                    <a href="#menu">Menu</a>
-                    <a href="#about">About</a>
-                    <a href="#contact">Contact</a>
+                    <a href="#menu">Our Menu</a>
+                    <a href="#about">MyMcDonald's Rewards</a>
+                    <a href="#contact">About Our Food</a>
                 </ul>
                 <ul className="mobile-list">
                     <div>
 
                     </div>
                     <div className="list">
-                        <a href="#home">Home</a>
-                        <a href="#menu">Menu</a>
-                        <a href="#about">About</a>
-                        <a href="#contact">Contact</a>
+                    <a href="#home">Home</a>
+                    <a href="#menu">Our Menu</a>
+                    <a href="#about">MyMcDonald's Rewards</a>
+                    <a href="#contact">About Our Food</a>
                     </div>
                     <a href="/auth">
                         <FaUser />
@@ -55,9 +55,6 @@ export default function () {
                         <div>
                             <FaShoppingBag className="icon" />
                             <div className="num">
-                                {
-
-                                }
                             </div>
                         </div>
                         <div className="bars" onClick={clickHandler}>
