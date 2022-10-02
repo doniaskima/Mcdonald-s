@@ -66,16 +66,16 @@ export default function () {
                 
                 </div>
             </nav>
-            <div className="cart">
+            {/* <div className="cart">
                 <FaTimes className="icon" onClick={closeHandler} />
                 <div className="cart-items">
 
                 </div>
-            </div>
-            <div className="bottom">
+            </div> */}
+            {/* <div className="bottom">
                 <h3>Total :<span>   $</span></h3>
                 <button>Checkout</button>
-            </div>
+            </div> */}
 
         </>
     )
