@@ -50,9 +50,26 @@
     align-items:center;
     justify-content:space-between;
     cursor:pointer;
-    
-   
 
 }
 
+.hr{
+    margin-top:2.6rem;
+    color:gray;
+}
+
+
+.little-amazon{
+    margin-top:1rem;
+    width:2.6rem;
+    object-fit:contain;
+}
  
+
+.line-one{
+    display:flex;
+    align-items:center;
+    gap:2rem;
+    font-size:1.1rem;
+    font:bold;
+}

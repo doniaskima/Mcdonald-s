@@ -6,6 +6,8 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import appStore from "../../assets/appStore.png";
 import GooglePlay from "../../assets/GooglePlay.png";
+import LittleMagdo from "../../assets/little-magdo.jpg"
+ 
 
 const Footer = () => {
   return (
@@ -76,6 +78,21 @@ const Footer = () => {
         <div className="Donlowd">
             <a href="https://apps.apple.com/us/app/mcdonalds-mobile/id922103212"><img src={appStore}/></a>
             <a href="https://play.google.com/store/apps/details?id=com.mcdonalds.app&hl=en"><img src={GooglePlay}/></a>
+        </div>
+      </div>
+      <hr className="hr"/>
+      <div className="last-footer">
+        <div className="line-one">
+          <a>Privacy (Updated)</a>
+          <a>California Privacy Notice</a>
+          <a>Terms & Conditions</a>
+           <a>Digital Accessibility</a>
+           <img src={LittleMagdo} className="little-amazon"/>
+           <a>© 2017 - 2022 McDonald's. All Rights Reserved</a>
+        </div>
+        <div className="line-one">
+          <a>Do Not Sell My Personal Information</a>
+          <a>Cookie Settings</a>
         </div>
       </div>
     </div>
