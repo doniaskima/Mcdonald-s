@@ -48,6 +48,7 @@ nav h1 {
     position: relative;
     list-style: none;
     text-decoration: none;
+    align-items: center;
 }
 
 .desktop-list a::after {

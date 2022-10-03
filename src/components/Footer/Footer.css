@@ -1,0 +1,42 @@
+.Footer {
+    width: 80vw;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 5rem;
+}
+
+.footer-title {
+    cursor: pointer;
+    color: black;
+    font-weight: 700;
+    font-size: 1.1em;
+    position: relative;
+    list-style: none;
+    text-decoration: none;
+    align-items: center;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.info .title-list ul li {
+    list-style: none;
+    margin-bottom: 1rem;
+}
+
+.List {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    align-items: center;
+}
+
+.social-icons{
+    display:flex;
+    margin-right:0.7rem;
+
+}
+
+

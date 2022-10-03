@@ -5,6 +5,7 @@ import Lead from "../../assets/Lead.jpg";
 import Story from "../../assets/Story.jpg";
 import Orders from "../../assets/Orders.jpg";
 import Deals from "../../assets/Deals.jpg";
+ 
 const Hero = () => {
 
   return (
@@ -21,7 +22,14 @@ const Hero = () => {
         title="Lead The Change"
         alt="Lead"
         text="To all those feeding and fostering community by embracing your passion, apply for a chance to be a McDonald’s® Black & Positively Golden® Change Leader and ignite your story. Whether you are an activist, financial guru, artist or creator, McDonald’s is empowering those who are leading change."
-    />
+          />
+          <Order
+              image={Story}
+              title="Your Story Deserves a Hollywood Ending"
+              alt="chips"
+              text="Latinos have stories to tell, yet they make up less than 1% of the ones told in Hollywood. As a champion of the Hispanic community McDonald’s wants to help change that. With Spotlight Dorado, McDonald’s is giving aspiring Latino filmmakers a chance to participate in a short film competition. Aspiring filmmakers will bring their vision to life having their story produced into a short film with invaluable mentorship from renowned industry leaders and a chance to showcase their film in film festivals around the country."
+           
+          />
         <Order
         image={Orders}
         title="Order McDelivery® Now*"

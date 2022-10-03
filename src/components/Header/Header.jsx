@@ -14,7 +14,7 @@ export default function () {
     function closeHandler() {
         document.querySelector(".filter").classList.toggle("seen");
         document.querySelector(".cart").classList.toggle("translated");
-    }  
+    }
     return (
         <>
             <div></div>
@@ -34,10 +34,10 @@ export default function () {
 
                     </div>
                     <div className="list">
-                    <a href="#home">Home</a>
-                    <a href="#menu">Our Menu</a>
-                    <a href="#about">MyMcDonald's Rewards</a>
-                    <a href="#contact">About Our Food</a>
+                        <a href="#home">Home</a>
+                        <a href="#menu">Our Menu</a>
+                        <a href="#about">MyMcDonald's Rewards</a>
+                        <a href="#contact">About Our Food</a>
                     </div>
                     <a href="/auth">
                         <FaUser />
@@ -63,13 +63,12 @@ export default function () {
                             <div className="bar"></div>
                         </div>
                     </div>
-                
+
                 </div>
             </nav>
             {/* <div className="cart">
                 <FaTimes className="icon" onClick={closeHandler} />
                 <div className="cart-items">
-
                 </div>
             </div> */}
             {/* <div className="bottom">
@@ -80,4 +79,3 @@ export default function () {
         </>
     )
 }
-

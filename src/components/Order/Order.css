@@ -43,9 +43,23 @@
 
 .text-right a {
     padding: 0.8rem 1rem;
-    background: #FFC72C;
+    background: #fabb10;
     color: rgb(55, 52, 52);
     font-size: 1.2rem;
     cursor: pointer;
     font-size: bold;
+}
+
+@media(max-width:768px) {
+    .eachOne {
+        display: block;
+        gap: 1rem;
+        row-gap: 1rem;
+        column-gap: 3rem;
+        align-items: center;
+    }
+    .img-left {
+        width: 760px;
+        object-fit: contain;
+    }
 }
