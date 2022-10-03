@@ -4,6 +4,9 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
+import appStore from "../../assets/appStore.png";
+import GooglePlay from "../../assets/GooglePlay.png";
+
 const Footer = () => {
   return (
     <div className="Footer">
@@ -65,13 +68,14 @@ const Footer = () => {
       </div>
       <div className="icons-footer">
         <div className="social-icons">
-            <FacebookIcon className="icon-footer"/>
-            <YouTubeIcon className="icon-footer"/>
-            <TwitterIcon className="icon-footer"/>
-            <InstagramIcon className="icon-footer"/>
+        <a><FacebookIcon className="icon-footer"/></a>
+         <a> <YouTubeIcon className="icon-footer"/></a>
+          <a><TwitterIcon className="icon-footer"/></a>
+          <a> <InstagramIcon className="icon-footer"/></a>
         </div>
         <div className="Donlowd">
-             
+            <a href="https://apps.apple.com/us/app/mcdonalds-mobile/id922103212"><img src={appStore}/></a>
+            <a href="https://play.google.com/store/apps/details?id=com.mcdonalds.app&hl=en"><img src={GooglePlay}/></a>
         </div>
       </div>
     </div>
