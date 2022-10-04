@@ -26,3 +26,4 @@ export function decreaseQuantity(id){
     type:actionTypes.DECREASE_QUANTITY,
     payload:id
   }
+}
