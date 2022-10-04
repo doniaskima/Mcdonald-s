@@ -21,6 +21,14 @@ export default function reducer(state=initialState, action){
                 draft.quantity++;
                 draft.total+=item.price;        
             })
+        case actionsTypes.REMOVE_FROM_CART:
+            return produce(state,(draft)=>{
+                const id = action.payload;
+                let item=draft.items.filter((x)=>x.id!==id);
+                draft.items= draft.items.filter((x)=>x.id!==id);
+                draft.quantity-=item.quantity;
+                draft.total-=item.quantity*item.price;
+            })
     }
 
 }
