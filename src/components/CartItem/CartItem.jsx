@@ -1,11 +1,10 @@
 import React from 'react';
 import { FaTrash } from "react-icons/fa";
 import { useDispatch } from "react-redux";
-import { removeFromCart } from "../app/actions/cartActions.js";
-import { increaseQuantity , decreaseQuantity } from "../app/actions/cartActions.js";
+import { increaseQuantity , decreaseQuantity ,removeFromCart } from "../actions/cartActions.js";
 
-const CartItem = ({name,id,picture,quantity}) => {
-
+const CartItem = ({name , id , price , picture , quantity}) => {
+    const dispatch = useDispatch();
     function remove(){
         dispatch(removeFromCart(id));
       }
