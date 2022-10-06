@@ -113,7 +113,14 @@ h3:hover {
     transform: scale(1, 1);
 }
 
-
+nav.sticky{
+    background:white;
+    padding:1em 10vw;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+}
+nav.sticky.website img{
+    width:30%;
+}
 /* tablet devices */
 
 @media(max-width:1024px) {
