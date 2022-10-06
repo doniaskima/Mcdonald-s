@@ -359,18 +359,17 @@ nav .container a:not(.link):hover{
           background:white;
           position: absolute;
           top:50%;
-
-          &:first-of-type{
+        }
+        .bar:first-of-type{
             transform: rotate(45deg);
-          }
+        }
 
-          &:nth-of-type(2){
+        .bar:nth-of-type(2){
             opacity:0;
-          }
+        }
 
-          &:last-of-type{
+        .bar:last-of-type{
             transform: rotate(-45deg);
-          }
         }
     }
 
