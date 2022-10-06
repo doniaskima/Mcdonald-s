@@ -6,7 +6,7 @@ import Footer from "../Footer/Footer"
 const HeroPage = () => {
   return (
    <>
-    <Header/>
+      <Header/>
           <Hero />
           <Footer/>
     

@@ -49,7 +49,7 @@ export default function () {
       <nav>
         <div className="website">
           <img src={Magdo} alt="burger image" />
-          <h1>Food Shop</h1>
+          <h1> McDonald’s </h1>
         </div>
         <ul className="desktop-list">
           <a href="#home">Home</a>
