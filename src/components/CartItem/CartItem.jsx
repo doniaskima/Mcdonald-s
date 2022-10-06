@@ -2,7 +2,7 @@ import React from 'react';
 import { FaTrash } from "react-icons/fa";
 import { useDispatch } from "react-redux";
 import { increaseQuantity , decreaseQuantity ,removeFromCart } from "../../actions/cartActions.js";
-
+import "./CartItem.css"
 const CartItem = ({name , id , price , picture , quantity}) => {
     const dispatch = useDispatch();
     function remove(){
@@ -19,7 +19,7 @@ const CartItem = ({name , id , price , picture , quantity}) => {
 
   return (
     <>
-        <div className="item">
+    <div className="item">
         <div className="left">
           <img src={picture} alt="cart item" />
           <h3>{name}</h3>
@@ -33,7 +33,7 @@ const CartItem = ({name , id , price , picture , quantity}) => {
           <h4>{price * quantity} $</h4>
           <FaTrash className="trash" onClick={remove}/>
         </div>
-        </div>
+    </div>
     </>
   )
 }
