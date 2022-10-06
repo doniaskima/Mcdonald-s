@@ -261,7 +261,7 @@ nav .container .num{
     align-items: center;
     filter: drop-shadow(0px 2px 5px rgba(0, 0, 0, 0.15));
     position: absolute;
-    right: -5px;
+    right: 145px;
     bottom: 0px;
     cursor: pointer;
     color:#D98201;
@@ -287,4 +287,43 @@ nav .container a:not(.link) h3{
 
 nav .container a:not(.link):hover{
     background: #D98201;
+}
+
+/* tablet devices */
+
+@media(max-width:1024px){
+    nav  .desktop-list{
+        display: none;
+      }
+      nav  .mobile-list{
+        background:#FFC72C;
+        position:fixed;
+        top:0px;
+        right:-100px;
+        height:100vh;
+        width:0%;
+        display:flex;
+
+    }
+    nav  .mobile-list  .list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    nav  .mobile-list  .list a {
+        color:white;
+        margin-bottom: 1rem;
+    }
+
+    nav  .mobile-lista:not(.list a){
+        display: flex;
+        align-items: center;
+        margin-bottom: 1rem;
+        gap:.25rem;
+        color:white;
+
+    }
+
+ 
 }
