@@ -1,3 +1,3 @@
-const cloud = "https://food-shop-react-js.herokuapp.com";
+const BaseUrl = "https://food-shop-react-js.herokuapp.com";
 
-export default cloud;
+export default BaseUrl;

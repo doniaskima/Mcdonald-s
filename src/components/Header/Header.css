@@ -182,28 +182,31 @@ nav .website{
 }
 
 nav .website img{
-    width: 35%;
+    width: 45%;
     transition: .5s;
 }
 
 nav .website h1{
     font-weight: 600;
-      font-size: 1rem;
-      color:black;
+      font-size: 1.5rem;
+    color:#FFC72C;
 }
 
 nav .desktop-list{
     display:flex;
     align-items:center;
     gap:1.5rem;
+    margin-left:3rem;
 }
 
 nav .desktop-list a{
     font-weight: 600;
     position: relative;
     color: black;
-        list-style: none;
+    list-style: none;
     text-decoration: none;
+    font-size: 1rem;
+    
 }
 
 nav .desktop-list a::after{
@@ -379,5 +382,8 @@ nav .container a:not(.link):hover{
           display: none;
         }
     }
+    nav  .desktop-list {
+        display: none;
+      }
  
 }

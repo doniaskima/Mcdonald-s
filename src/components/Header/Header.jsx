@@ -52,20 +52,20 @@ export default function () {
           <h1> McDonald’s </h1>
         </div>
         <ul className="desktop-list">
-          <a href="#home">Home</a>
-          <a href="#menu">Menu</a>
-          <a href="#about">About</a>
-          <a href="#contact">Contact</a>
+          <a href="#OurMenu">Our Menu</a>
+          <a href="#menu">Download App</a>
+          <a href="#about">MyMcDonald's Rewards</a>
+          <a href="#contact">About Our Food</a>
         </ul>
         <ul className="mobile-list">
           <div>
 
           </div>
           <div className="list">
-            <a href="#home">Home</a>
-            <a href="#menu">Menu</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>
+            <a href="#OurMenu">Our Menu</a>
+            <a href="#menu">Download App</a>
+            <a href="#about">MyMcDonald's Rewards</a>
+            <a href="#contact">About Our Food</a>
           </div>
           <a href="/auth">
             <FaUser />
