@@ -48,6 +48,7 @@
     font-size: 1.2rem;
     cursor: pointer;
     font-size: bold;
+    text-decoration: none;
 }
 
 @media(max-width:768px) {
