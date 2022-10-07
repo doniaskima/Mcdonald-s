@@ -6,8 +6,10 @@ import "./Header.css";
 import { useSelector } from "react-redux";
 import { FaTimes } from "react-icons/fa";
 import CartItem from "../CartItem/CartItem";
+import { Link } from "react-router-dom";
 
 export default function () {
+ 
     const cartItems = useSelector(state => state.cart.items);
     const num = useSelector(state => state.cart.quantity);
     const total = useSelector(state => state.cart.total);
@@ -51,21 +53,21 @@ export default function () {
           <img src={Magdo} alt="burger image" />
           <h1> McDonald’s </h1>
         </div>
-        <ul className="desktop-list">
-          <a href="#OurMenu">Our Menu</a>
-          <a href="#menu">Download App</a>
-          <a href="#about">MyMcDonald's Rewards</a>
-          <a href="#contact">About Our Food</a>
+          <ul className="desktop-list">
+            <Link to="/Menu"><a href="/Menu" >Our Menu</a></Link>
+            <Link to="/Download"><a href="/Download" >Download App</a></Link>
+            <Link to="/Rewards"><a href="/Rewards" >MyMcDonald's Rewards</a></Link>
+            <Link to="/About"><a href="/About" >About Our Food</a></Link>
         </ul>
         <ul className="mobile-list">
           <div>
 
           </div>
           <div className="list">
-            <a href="#OurMenu">Our Menu</a>
-            <a href="#menu">Download App</a>
-            <a href="#about">MyMcDonald's Rewards</a>
-            <a href="#contact">About Our Food</a>
+          <Link to="/Menu"><a href="/Menu" >Our Menu</a></Link>
+            <Link to="/Download"><a href="/Download" >Download App</a></Link>
+            <Link to="/Rewards"><a href="/Rewards" >MyMcDonald's Rewards</a></Link>
+            <Link to="/About"><a href="/About" >About Our Food</a></Link>
           </div>
           <a href="/auth">
             <FaUser />
