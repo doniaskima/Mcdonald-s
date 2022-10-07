@@ -10,13 +10,13 @@ code {
 }
 
 body::-webkit-scrollbar {
-  display: none;
+    display: none;
 }
 
 * {
-  margin: 0;
+    margin: 0;
 }
 
 a {
-  text-decoration:none;
+    text-decoration: none;
 }

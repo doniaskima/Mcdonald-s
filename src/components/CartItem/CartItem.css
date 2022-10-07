@@ -1,64 +1,51 @@
-.item{
-    background:white;
-    width:100%;
-    padding:1rem;
+.item {
+    background: white;
+    width: 100%;
+    padding: 1rem;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
     border-radius: 8px;
     display: flex;
 }
 
-.item .left{
-    width:40%;
+.item .left {
+    width: 40%;
     display: flex;
     align-items: center;
-    gap:.5rem;
-
+    gap: .5rem;
 }
 
-.item .left h3{
-    color:black;
+.item .left h3 {
+    color: black;
     font-size: 1rem;
     font-weight: 500;
 }
 
 .item .left img {
-    width:30%;
+    width: 30%;
 }
 
-.item .right{
-    width:60%;
+.item .right {
+    width: 60%;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.item .right .actions{
-    display:flex;
-    align-items:center;
-    gap:.75rem;
-}
-
-.item .right .actions .number{
-    color:black;
-}
-
-.item .right .actions .minus{
-    background:gray;
-    color:white;
-    width:20px;
-    height:20px;
-    border-radius: 50%;
+.item .right .actions {
     display: flex;
-    justify-content: center;
     align-items: center;
-    cursor: pointer;
-
+    gap: .75rem;
 }
-.item .right .actions .plus{
-    background:black;
-    color:white;
-    width:20px;
-    height:20px;
+
+.item .right .actions .number {
+    color: black;
+}
+
+.item .right .actions .minus {
+    background: gray;
+    color: white;
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -66,7 +53,19 @@
     cursor: pointer;
 }
 
-.trash{
-    color:red;
-    cursor:pointer;
+.item .right .actions .plus {
+    background: black;
+    color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.trash {
+    color: red;
+    cursor: pointer;
 }
