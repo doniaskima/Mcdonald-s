@@ -7,9 +7,10 @@ import { useSelector } from "react-redux";
 import { FaTimes } from "react-icons/fa";
 import CartItem from "../CartItem/CartItem";
 import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 export default function () {
- 
+  const navigate = useNavigate();
     const cartItems = useSelector(state => state.cart.items);
     const num = useSelector(state => state.cart.quantity);
     const total = useSelector(state => state.cart.total);
@@ -51,9 +52,9 @@ export default function () {
       <nav>
         <div className="website">
          
-          <img src={Magdo} alt="burger image" />
- 
-           <h1> McDonald’s </h1>  
+            <img src={Magdo} alt="burger image" onClick={() => navigate("/")}/>
+            <Link to="/"><a className="McDonalds"href="/" >McDonald’s</a></Link>
+        
         
         </div>
           <ul className="desktop-list">

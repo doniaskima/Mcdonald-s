@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Item.css";
 
-const Item = ({title1,title2,title3,img1,img3,img2}) => {
+const Item = ({title1,title2,title3,img1,img3,img2,title4,img4,title5,img5}) => {
   return (
     <>
      <div className="images">
@@ -17,6 +17,14 @@ const Item = ({title1,title2,title3,img1,img3,img2}) => {
        <div>
           <img className="FoodImg" src={img3} alt="food"/>
           <h3>{title3}</h3>
+       </div>
+       <div>
+          <img className="FoodImg" src={img4} alt="food"/>
+          <h3>{title4}</h3>
+       </div>
+       <div>
+          <img className="FoodImg" src={img5} alt="food"/>
+          <h3>{title5}</h3>
        </div>
       </div>
     </div>

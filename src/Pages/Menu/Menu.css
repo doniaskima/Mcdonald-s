@@ -8,20 +8,24 @@
 }
 
 .MagdoMenu{
-    display:grid;
-    grid-template-columns:6fr 6fr;
+   align-items:center;
+   display:flex;
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   font-size: calc(10px + 2vmin);
 }
  
-.featured-right{
-    height:100vh;
-    width:5rem;
+
+.featuredTitle{
+    align-items:center;
+    justify-content:center;
+    font-size:2rem;
+    color:#FFC72C;
 }
-.featured-right .first-rectangle{
-    height:3rem;
-    width:5rem;
-    border-radius:8px solid black;
-    color:red;
-}
+ 
 
 .food{
     display:block;
