@@ -15,7 +15,8 @@ import HotCaramel from "../../images/HotCaramel.jpg";
 import Biscuit from "../../images/Biscuit.jpg";
 import Cheesburger from "../../images/Cheesburger.jpg";
 import Pepeeer from "../../images/Pepeeer.jpg";
-import {  useTypewriter } from "react-simple-typewriter"
+import {  useTypewriter } from "react-simple-typewriter";
+ 
 const Menu = () => {
   const [text, count] = useTypewriter({
     words: ["McDonald's Menu"],
@@ -58,7 +59,7 @@ const Menu = () => {
                    img5={Sausage }
                    title5="Spicy Crispy Chicken Sandwich"
                     />
-                                   <Item
+                    <Item
                    img1={HotCaramel}
                    img2={VaniilaSnake}
                    img3={Coffe}
@@ -85,6 +86,7 @@ const Menu = () => {
                     />
                
              </div>
+           
          </div>
        </div>
 

@@ -84,7 +84,7 @@ export default function () {
           <div className="container">
             <a href="/auth">
               <FaUser />
-              <h3>Sign in</h3>
+              <h3  onClick={() => navigate("/Auth")}>Sign in</h3>
             </a>
             <div onClick={handler}>
               <FaShoppingBag className="icon" />
