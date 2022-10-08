@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Order.css";
-const Order = ({image, text, alt, title, parag}) => {
+const Order = ({image, text, alt, title, parag,buttonText}) => {
   return (
   
     <div className="container">
@@ -14,7 +14,7 @@ const Order = ({image, text, alt, title, parag}) => {
                     {text}
                 </p>
                 <p className="tiny">{parag}</p>
-                <a href="/BuyNow" className="btn">Apply Now to be a Change Leader</a>
+                <a href="/BuyNow" className="btn">{buttonText}</a>
             </div>
         </div>
     </div>
