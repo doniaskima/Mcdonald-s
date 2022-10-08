@@ -1,0 +1,29 @@
+.container{
+    
+    font-family: Speedee,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #292929;
+    letter-spacing: -.15px;
+}
+
+.MagdoMenu{
+    display:grid;
+    grid-template-columns:6fr 6fr;
+}
+ 
+.featured-right{
+    height:100vh;
+    width:5rem;
+}
+.featured-right .first-rectangle{
+    height:3rem;
+    width:5rem;
+    border-radius:8px solid black;
+    color:red;
+}
+
+.food{
+    display:block;
+    margin-bottom:3rem;
+}
