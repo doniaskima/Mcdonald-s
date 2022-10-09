@@ -25,3 +25,19 @@
 .item div h3 {
     color: red;
 }
+
+.item button {
+    border: none;
+    outline: none;
+    color: white;
+    width: 100%;
+    padding: .75rem 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .3s;
+    background: #FFC72C;
+}
+
+.item button:hover {
+    background: #D98201;
+}

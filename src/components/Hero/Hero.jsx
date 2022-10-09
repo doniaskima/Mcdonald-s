@@ -23,7 +23,7 @@ const Hero = () => {
         title="Lead The Change"
         alt="Lead"
         text="To all those feeding and fostering community by embracing your passion, apply for a chance to be a McDonald’s® Black & Positively Golden® Change Leader and ignite your story. Whether you are an activist, financial guru, artist or creator, McDonald’s is empowering those who are leading change."
-        buttonText="Apply Now to be a Change LeaderYour Story Des"
+        buttonText="Learn More About Spotlight Dorado"
           />
           <Order
               image={Story}
