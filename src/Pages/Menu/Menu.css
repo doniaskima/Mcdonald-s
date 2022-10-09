@@ -1,33 +1,56 @@
-.container{
-    
-    font-family: Speedee,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+.container {
+    font-family: Speedee, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;
     font-size: 14px;
     line-height: 24px;
     color: #292929;
     letter-spacing: -.15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.MagdoMenu{
-   align-items:center;
-   display:flex;
-   min-height: 100vh;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
-   font-size: calc(10px + 2vmin);
+.featuredTitle {
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: #FFC72C;
 }
- 
 
-.featuredTitle{
-    align-items:center;
-    justify-content:center;
-    font-size:2rem;
-    color:#FFC72C;
+.food {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 6rem;
 }
- 
 
-.food{
-    display:block;
-    margin-bottom:3rem;
+.featured-img {
+    width: 14rem;
+    height: 16rem;
+    object-fit: contain;
+}
+
+.featured-btn {
+    padding: 1rem 1.2rem;
+    color: black;
+    background: #FFC72C;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.brakfast h1 {
+    margin-bottom: 2rem;
+}
+
+@media(max-width:640px) {
+    .food {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
+    }
+    .featuredTitle {
+        font-size: 1.5rem;
+    }
 }
