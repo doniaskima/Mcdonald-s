@@ -42,10 +42,7 @@ const Burgers = () => {
         <div className="grid">
                         <Cart  picture={BigMac} price="19" name="Big Mac®" />
                         <Cart picture={CheeseBacon} price="34" name="Pounder®* with Cheese" />
-                        <Cart picture={DoubleQuarter} price="29" name="Double Quarter with Cheese"/>
-                        <Cart picture={McDouble} price="23" name="McDouble®" />
-                        <Cart picture={Pounder} price="34" name="Cheeseburger"/>
-                        <Cart picture={Quarter} price="48" name="Double Cheeseburger" />
+                  
                         {
             data.map((item,index)=>{
               return(
@@ -60,7 +57,12 @@ const Burgers = () => {
                 />
               )
             })
-          }
+                            
+                        }
+                        <Cart picture={DoubleQuarter} price="29" name="Double Quarter with Cheese"/>
+                        <Cart picture={McDouble} price="23" name="McDouble®" />
+                        <Cart picture={Pounder} price="34" name="Cheeseburger"/>
+                        <Cart picture={Quarter} price="48" name="Double Cheeseburger" />
         </div>
         </div>
     </div>

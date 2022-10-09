@@ -7,6 +7,7 @@ import Menu from "./Pages/Menu/Menu";
 import Rewards from "./Pages/Rewards/Rewards";
 import Auth from "./Pages/Auth/Auth"
 import Burgers from "./Pages/Burgers/Burgers"
+import Breakfast from "./Pages/Breakfast/Breakfast"
 
 
 function App() {
@@ -19,7 +20,8 @@ function App() {
         <Route path="/Menu" element={<Menu />} />
         <Route path="/Rewards" element={  <Rewards />} />
         <Route path="/Auth" element={<Auth />} />
-        <Route path="/Burgers" element={  <Burgers />} />
+        <Route path="/Burgers" element={<Burgers />} />
+        <Route path="/breakfast" element={  <Breakfast />} />
       </Routes>
     </div>
   );
