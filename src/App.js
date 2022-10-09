@@ -6,6 +6,7 @@ import Download from "./Pages/Download/Download";
 import Menu from "./Pages/Menu/Menu";
 import Rewards from "./Pages/Rewards/Rewards";
 import Auth from "./Pages/Auth/Auth"
+import Burgers from "./Pages/Burgers/Burgers"
 
 
 function App() {
@@ -17,7 +18,8 @@ function App() {
         <Route path="/Download" element={<Download />} />
         <Route path="/Menu" element={<Menu />} />
         <Route path="/Rewards" element={  <Rewards />} />
-        <Route path="/Auth" element={  <Auth />} />
+        <Route path="/Auth" element={<Auth />} />
+        <Route path="/Burgers" element={  <Burgers />} />
       </Routes>
     </div>
   );

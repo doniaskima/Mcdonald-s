@@ -17,13 +17,14 @@
 }
 
 .item div h1 {
-    font-size: 1rem;
-    font-weight: 500;
-    color: #FFC72C;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: black;
 }
 
 .item div h3 {
     color: red;
+    font-size: 2rem;
 }
 
 .item button {

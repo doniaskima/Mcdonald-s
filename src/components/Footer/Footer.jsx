@@ -70,10 +70,10 @@ const Footer = () => {
       </div>
       <div className="icons-footer">
         <div className="social-icons">
-        <a href="https://www.facebook.com/McDonalds/"><FacebookIcon className="icon-footer"/></a>
-         <a href="https://www.youtube.com/channel/UCRI5ZedBs0_BYY4PlxD6m7w"> <YouTubeIcon className="icon-footer"/></a>
-          <a href="https://twitter.com/mcdonalds"><TwitterIcon className="icon-footer"/></a>
-          <a href="https://www.instagram.com/mcdonalds/"><InstagramIcon className="icon-footer"/></a>
+        <a href="https://www.facebook.com/McDonalds/" className="icon-footer"><FacebookIcon  className="icon-footer" /></a>
+         <a href="https://www.youtube.com/channel/UCRI5ZedBs0_BYY4PlxD6m7w" className="icon-footer" > <YouTubeIcon  className="icon-footer"/></a>
+          <a href="https://twitter.com/mcdonalds" className="icon-footer"><TwitterIcon  className="icon-footer" /></a>
+          <a href="https://www.instagram.com/mcdonalds/" className="icon-footer"><InstagramIcon  className="icon-footer" /></a>
         </div>
         <div className="Donlowd">
             <a href="https://apps.apple.com/us/app/mcdonalds-mobile/id922103212"><img src={appStore}/></a>
