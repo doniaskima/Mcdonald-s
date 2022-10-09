@@ -50,7 +50,7 @@ const Burgers = () => {
                   key={index}
                   id={item._id}
                   picture={Pounder}
-                  name={item.name}
+                  name="CheeseBacon®"
                   price={item.price}
                   type={item.type}
                   delay={ ( index + 1 ) % 4 == 0 ? 400 : ( index + 1 ) % 4 * 100 }
