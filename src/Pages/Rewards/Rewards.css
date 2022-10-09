@@ -1,0 +1,56 @@
+.container {
+    font-family: Speedee, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #292929;
+    letter-spacing: -.15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rewards-title {
+    margin-bottom: 3rem;
+}
+
+.rewards-title h1 {
+    font-size: 3rem;
+}
+
+.rewards-title p {
+    font-size: 1.2rem;
+}
+
+.MyRewards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.RewarOne a {
+    padding: 0.8rem 1rem;
+    background: #fabb10;
+    color: rgb(55, 52, 52);
+    font-size: 1.2rem;
+    cursor: pointer;
+    font-size: bold;
+    text-decoration: none;
+    margin-top: 3rem;
+}
+
+#Howto {
+    margin-top: 3rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+
+#Howto .titles h1 {
+    font-size: 2rem;
+}
+
+.howToEarn {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
