@@ -52,7 +52,7 @@ const Menu = () => {
               <div className="brakfast">
               <img src={Sausage} alt="brakfast" className="featured-img"/>
                 <h1>McNuggets® and<br/> Meals</h1>
-                <Link to="/McNuggets®"><a className="featured-btn">view Menu</a></Link>
+                <Link to="/McNuggets"><a className="featured-btn">view Menu</a></Link>
               </div>
               <div className="brakfast">
               <img src={Cactus} alt="brakfast" className="featured-img"/>

@@ -8,7 +8,10 @@ import Rewards from "./Pages/Rewards/Rewards";
 import Auth from "./Pages/Auth/Auth"
 import Burgers from "./Pages/Burgers/Burgers"
 import Breakfast from "./Pages/Breakfast/Breakfast"
+import Chicken from "./Pages/Chicken/Chicken"
+import McNuggets from "./Pages/McNuggets/McNuggets"
 
+ 
 
 function App() {
   return (
@@ -22,6 +25,8 @@ function App() {
         <Route path="/Auth" element={<Auth />} />
         <Route path="/Burgers" element={<Burgers />} />
         <Route path="/breakfast" element={  <Breakfast />} />
+        <Route path="/Chicken" element={  <Chicken />} />
+        <Route path="/McNuggets" element={  <McNuggets />} />
       </Routes>
     </div>
   );
