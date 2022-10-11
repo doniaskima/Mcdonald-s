@@ -1,13 +1,13 @@
 import { useEffect ,useState} from "react";
 import Cart from "../../components/Cart/Cart";
 import Header from "../../components/Header/Header"
-import "./Chicken.css";
-import Crispy from "../../images/Chicken/Crispy.jpg"
-import Deluxe from "../../images/Chicken/Deluxe.jpg"
-import spicy from "../../images/Chicken/spicy.jpg"
+import "./Cactus.css";
+import CactusPla from "../../images/CactusPla.jpg"
+
 import BaseUrl from "../../BaseUrl/BaseURL";
 import { useTypewriter } from "react-simple-typewriter";
-const Chicken = () => {
+
+const Cactus = () => {
       const [ data , setData ] = useState([]);
     useEffect(() => {
        
@@ -20,7 +20,7 @@ const Chicken = () => {
         fetchData();
       } , [])
     const [text, count] = useTypewriter({
-        words: ["Chicken & Fish Sandwiches"],
+        words: ["The Cactus Plant Flea Market Boxes"],
         loop: true,
         delaySpeed: 1200,
       })
@@ -37,25 +37,7 @@ const Chicken = () => {
           <h3>A menu that always makes you fall in love</h3>
               </div>
         <div className="grid">
-        
-        {
-            data.map((item,index)=>{
-              return(
-                <Cart
-                  key={index}
-                  id={item._id}
-                  picture={Crispy}
-                  name="CheeseBacon®"
-                  price={item.price}
-                  type={item.type}
-                  delay={ ( index + 1 ) % 4 == 0 ? 400 : ( index + 1 ) % 4 * 100 }
-                />
-              )
-            })
-                            
-                        }
-            <Cart  picture={Deluxe} price="19" name="Spicy Deluxe Crispy Chicken Sandwich" />
-            <Cart  picture={spicy} price="19" name="Bacon, Egg & Cheese Biscuit" /> 
+        <Cart  picture={CactusPla} price="19" name="The Cactus Plant Flea Market Box Big Mac® Combo Meal" /> 
         </div>
         </div>
     </div>
@@ -63,4 +45,4 @@ const Chicken = () => {
   )
 }
 
-export default Chicken
+export default Cactus

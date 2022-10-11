@@ -10,9 +10,12 @@ import Burgers from "./Pages/Burgers/Burgers"
 import Breakfast from "./Pages/Breakfast/Breakfast"
 import Chicken from "./Pages/Chicken/Chicken"
 import McNuggets from "./Pages/McNuggets/McNuggets"
+import Cactus from "./Pages/Cactus/Cactus"
+import Fries from "./Pages/Fries/Fries"
+import HappyMeal from "./Pages/HappyMeal/HappyMeal"
 
  
-
+ 
 function App() {
   return (
     <div className="app">
@@ -27,6 +30,9 @@ function App() {
         <Route path="/breakfast" element={  <Breakfast />} />
         <Route path="/Chicken" element={  <Chicken />} />
         <Route path="/McNuggets" element={  <McNuggets />} />
+        <Route path="/Cactus" element={<Cactus />} />
+        <Route path="/Fries" element={  <Fries />} />
+        <Route path="/HappyMeal" element={  <HappyMeal />} />
       </Routes>
     </div>
   );

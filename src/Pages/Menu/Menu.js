@@ -62,12 +62,12 @@ const Menu = () => {
               <div className="brakfast">
               <img src={Fries} alt="brakfast" className="featured-img"/>
                 <h1>Fries & Sides</h1>
-                <Link to="/Fries & Sides"><a className="featured-btn">view Menu</a></Link>
+                <Link to="/Fries"><a className="featured-btn">view Menu</a></Link>
               </div>
               <div className="brakfast">
               <img src={HappyMeal} alt="HappyMeal" className="featured-img"/>
                 <h1>Happy Meal®</h1>
-                <Link to="/Happy Meal®"><a className="featured-btn">view Menu</a></Link>
+                <Link to="/HappyMeal"><a className="featured-btn">view Menu</a></Link>
               </div>
               <div className="brakfast">
               <img src={Coffe} alt="brakfast" className="featured-img"/>

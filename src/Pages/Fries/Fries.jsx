@@ -1,13 +1,15 @@
 import { useEffect ,useState} from "react";
 import Cart from "../../components/Cart/Cart";
 import Header from "../../components/Header/Header"
-import "./Chicken.css";
-import Crispy from "../../images/Chicken/Crispy.jpg"
-import Deluxe from "../../images/Chicken/Deluxe.jpg"
-import spicy from "../../images/Chicken/spicy.jpg"
+import "./Fries.css";
+import Friess from "../../images/Fries.jpg";
+import Sauce1 from "../../images/Sauce1.jpg";
+import Sauce2 from "../../images/Sauce2.jpg";
+import Sauce3 from "../../images/Sauce3.jpg";
+import AppleSlice from "../../images/AppleSlice.jpg";
 import BaseUrl from "../../BaseUrl/BaseURL";
 import { useTypewriter } from "react-simple-typewriter";
-const Chicken = () => {
+const Fries = () => {
       const [ data , setData ] = useState([]);
     useEffect(() => {
        
@@ -20,7 +22,7 @@ const Chicken = () => {
         fetchData();
       } , [])
     const [text, count] = useTypewriter({
-        words: ["Chicken & Fish Sandwiches"],
+        words: ["Fries & Sides"],
         loop: true,
         delaySpeed: 1200,
       })
@@ -37,25 +39,19 @@ const Chicken = () => {
           <h3>A menu that always makes you fall in love</h3>
               </div>
         <div className="grid">
-        
-        {
-            data.map((item,index)=>{
-              return(
-                <Cart
-                  key={index}
-                  id={item._id}
-                  picture={Crispy}
-                  name="CheeseBacon®"
-                  price={item.price}
-                  type={item.type}
-                  delay={ ( index + 1 ) % 4 == 0 ? 400 : ( index + 1 ) % 4 * 100 }
-                />
-              )
-            })
+                        <Cart picture={Friess} price="19" name="World Famous Fries®" />
+                        <Cart  picture={AppleSlice} price="29" name="World Famous Fries®" />
+                      
+                          
+        </div>
+        <div className="Sauces">
+           <h1>Sauces & Condiments</h1>
+        </div>
+            <div className="grid">
+            <Cart picture={Sauce1} price="19" name="Tangy Barbeque Sauce" />
+            <Cart picture={Sauce2} price="29" name="Spicy Buffalo Sauce" />
+            <Cart  picture={Sauce3} price="29" name="Creamy Ranch Sauce®" />
                             
-                        }
-            <Cart  picture={Deluxe} price="19" name="Spicy Deluxe Crispy Chicken Sandwich" />
-            <Cart  picture={spicy} price="19" name="Bacon, Egg & Cheese Biscuit" /> 
         </div>
         </div>
     </div>
@@ -63,4 +59,4 @@ const Chicken = () => {
   )
 }
 
-export default Chicken
+export default Fries;
