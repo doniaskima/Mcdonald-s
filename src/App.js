@@ -13,6 +13,10 @@ import McNuggets from "./Pages/McNuggets/McNuggets"
 import Cactus from "./Pages/Cactus/Cactus"
 import Fries from "./Pages/Fries/Fries"
 import HappyMeal from "./Pages/HappyMeal/HappyMeal"
+import Coffees from "./Pages/coffes/coffes"
+import Bakery from "./Pages/Bakery/Bakery"
+import Beverages from "./Pages/Beverages/Beverages"
+import Desserts from "./Pages/Desserts/Desserts"
 
  
  
@@ -32,10 +36,17 @@ function App() {
         <Route path="/McNuggets" element={  <McNuggets />} />
         <Route path="/Cactus" element={<Cactus />} />
         <Route path="/Fries" element={  <Fries />} />
-        <Route path="/HappyMeal" element={  <HappyMeal />} />
+        <Route path="/HappyMeal" element={<HappyMeal />} />
+        <Route path="/Coffees" element={<Coffees />} />
+        <Route path="/Bakery" element={<Bakery />} />
+        <Route path="/Beverages" element={<Beverages />} />
+               <Route path="/Desserts" element={  <Desserts />} />
       </Routes>
     </div>
+     
+     
   );
 }
 
 export default App;
+ 
