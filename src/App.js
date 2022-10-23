@@ -40,7 +40,7 @@ function App() {
         <Route path="/Coffees" element={<Coffees />} />
         <Route path="/Bakery" element={<Bakery />} />
         <Route path="/Beverages" element={<Beverages />} />
-               <Route path="/Desserts" element={  <Desserts />} />
+        <Route path="/Desserts" element={  <Desserts />} />
       </Routes>
     </div>
      
